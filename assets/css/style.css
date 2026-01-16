@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Bernier';
+    src: url('../fonts/BERNIERDISTRESSED-REGULAR.OTF') format('opentype');
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 80px;
+}
+
+h1, h2, h3, .title {
+    font-family: 'Bernier', sans-serif;
+}
+
+.footer {
+    padding: 30px 0;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+

@@ -1,0 +1,41 @@
+.useful {
+    background: url('../imgs/bg.jpg') no-repeat center / cover;
+    padding: 80px 0 80px 60px;
+    border: 6px solid #FFD6B6;
+}
+
+.section-title {
+    font-size: 82px;
+    line-height: 74px;
+    color: #D78C69;
+}
+
+.useful-list {
+    padding-left: 18px;
+}
+
+.useful-list li {
+    margin-bottom: 8px;
+}
+
+.useful-image {
+    border: 6px solid #FFD6B6;
+    max-width: 500px;
+    margin-top: -380px;
+    margin-left: -129px;
+    position: absolute;
+}
+
+#program {
+    padding: 180px 0 100px 0;
+}
+
+#program .right-img {
+    position: relative;
+}
+
+#program p {
+    font-size: 22px;
+    max-width: 540px;
+    line-height: normal;
+}

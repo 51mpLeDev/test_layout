@@ -1,0 +1,78 @@
+
+.header {
+  padding: 120px 0 80px;
+  background-image: url('../imgs/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-title {
+  font-size: 40px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.header-title .big {
+  font-size: 54px;
+}
+
+.header-title .sub {
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  display: block;
+  margin-top: 5px;
+}
+
+.header-list {
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+.header-list li {
+  margin-bottom: 8px;
+}
+
+.advantages .adv-item {
+  border: 1px solid #f0c7a1;
+  background: rgba(255,255,255,0.85);
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* картинки справа */
+.header-pic-main {
+  max-width: 100%;
+}
+
+.header-pic-brush {
+  position: absolute;
+  right: -40px;
+  bottom: -20px;
+  width: 160px;
+}
+
+
+@media (max-width: 991px) {
+  .header {
+    padding: 80px 0 60px;
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 32px;
+  }
+
+  .header-title .big {
+    font-size: 40px;
+  }
+}
+
+.site-header {
+  height: 70px;
+}
+
+body {
+  padding-top: 70px;
+}

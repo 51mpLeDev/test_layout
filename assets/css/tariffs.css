@@ -1,0 +1,113 @@
+.paints-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.tariffs {
+    background: url('../imgs/bg tarif.jpg') no-repeat center / cover;
+    padding: 90px 0;
+}
+
+.tariff-card {
+    background: #fff;
+    padding: 0 0 25px;
+    transition: .3s;
+}
+
+.tariff-card > h4 {
+    color: #fff;
+    font-family: "Bernier";
+    display: block;
+    padding: 26px 3px;
+    font-size: 35px;
+    background: #4F7290;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tariff-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.tariff-card.popular {
+    border: 2px solid #f0ad4e;
+}
+
+.tariff-list {
+    padding: 0 40px;
+    min-height: 90px;
+    font-size: 20px;
+}
+
+.tariff-list li {
+    margin-bottom: 15px;
+}
+
+.tariff-list li::marker {
+    color: #FFA245;
+    font-size: 1em;
+}
+
+.tariff-list li.exclude {
+    text-decoration: line-through;
+}
+
+.tariff-access-btn {
+    background: linear-gradient(270deg, #D8775D, #FF8B32);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 48px;
+    gap: 10px;
+    max-width: 370px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #4F7290;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #4F7290;
+}
+
+
+.convert-currency {
+    display: flex;
+    max-width: 100px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.currency-code-btn {
+    display: inline-block;
+    width: 35px;
+    height: 37px;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    background: #FFD6B6;
+    border-radius: 2px;
+}
+
+.currency-code-btn.active {
+    text-decoration: none;
+    color: white;
+    background: #D78C69;
+}

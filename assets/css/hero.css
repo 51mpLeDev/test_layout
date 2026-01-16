@@ -1,0 +1,135 @@
+.intro {
+    background-image: url('../imgs/bg head.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0 70px;
+    height: 820px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.intro-title {
+    margin-top: 7px;
+    text-align: unset;
+    margin-bottom: 20px;
+    font-size: 104px;
+    line-height: 70px;
+    color: #D78C69;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+.intro-sub {
+    display: block;
+    margin-top: 20px;
+    font-size: 48px;
+    line-height: 41px;
+    color: #4F7290;
+}
+
+.intro-title-sm {
+    font-size: 84px;
+}
+
+.intro-list {
+    padding-left: 22px;
+    font-size: 22px;
+}
+
+.intro-list li {
+    margin-bottom: 8px;
+}
+
+.intro-list li::marker {
+    color: #FFA245;
+    font-size: 1em;
+}
+
+.intro-images {
+    position: relative;
+}
+
+.intro-main-img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.intro-brush {
+    position: absolute;
+    left: 40px;
+    bottom: -20px;
+    width: 120px;
+}
+
+.intro-btn {
+    background: linear-gradient(270deg, #D8775D, #FF8B32);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 48px;
+    gap: 10px;
+    max-width: 370px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+.intro-advantages {
+    margin-top: -40px;
+}
+
+
+.pic {
+    position: absolute;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+    background: #fff;
+    padding: 8px;
+}
+
+.pic-1 {
+    top: 0;
+    left: 40px;
+    width: 220px;
+}
+
+.pic-2 {
+    top: 40px;
+    left: 260px;
+    width: 220px;
+}
+
+.pic-3 {
+    top: 220px;
+    left: 140px;
+    width: 260px;
+}
+
+.brush {
+    position: absolute;
+    left: 90px;
+    bottom: -20px;
+    width: 120px;
+}
+
+.adv-box {
+    border: 6px solid #f0c7a1;
+    padding: 12px 40px;
+    height: 135px;
+    font-size: 21px;
+    background-image: url('../imgs/d.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro b {
+    color: #4F7290;
+}

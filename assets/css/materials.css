@@ -1,0 +1,68 @@
+.materials {
+    padding: 80px 0;
+}
+
+.material-btn {
+    color: #4F7290 !important;
+    border: 1px solid #4F7290;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.material-item-paper {
+    font-size: 21px;
+    margin: 1rem 0;
+}
+
+.material-item img {
+    margin-bottom: 10px;
+    max-width: 95px;
+}
+
+.material-item p {
+    font-size: 22px;
+    line-height: normal;
+    color: #4F7290;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.drop-text {
+    border: 2px solid #a8c4e6;
+    border-radius: 18px;
+    padding: 0;
+    width: 520px;
+    background: #b7d7f3;
+}
+
+.drop-pad {
+    padding: 22px 26px;
+    display: flex;
+    gap: 30px;
+}
+
+.drop-pad ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.drop-pad li {
+    margin-bottom: 6px;
+    color: #4F7290;
+}
+
+.drop-pad li::marker {
+    color: #FFA245;
+}
+
