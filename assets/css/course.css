@@ -39,3 +39,64 @@
     max-width: 540px;
     line-height: normal;
 }
+
+/* ====== ADAPTIVE FONT SIZES (USEFUL / PROGRAM) ====== */
+
+/* ноутбуки и меньше */
+@media (max-width: 1199px) {
+    .section-title {
+        font-size: 76px;
+        line-height: 68px;
+    }
+
+    #program p {
+        font-size: 21px;
+    }
+}
+
+/* планшеты */
+@media (max-width: 991px) {
+    .section-title {
+        font-size: 68px;
+        line-height: 62px;
+    }
+
+    #program {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .useful {
+        padding: 70px;
+    }
+
+    #program p {
+        font-size: 22px;
+    }
+
+    .right-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .useful-image {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: -75px;
+        max-width: 540px;
+        position: unset;
+    }
+}
+
+/* телефоны */
+@media (max-width: 767px) {
+    .section-title {
+        font-size: 48px;
+        line-height: 46px;
+    }
+
+    #program p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}

@@ -139,3 +139,93 @@
 .intro b {
     color: #4F7290;
 }
+
+/* ====== ADAPTIVE FONT SIZES ====== */
+
+/* ноутбуки и меньше */
+@media (max-width: 1199px) {
+    .intro-title {
+        font-size: 96px;
+        line-height: 64px;
+    }
+
+    .intro-title-sm {
+        font-size: 78px;
+    }
+
+    .intro-sub {
+        font-size: 44px;
+        line-height: 38px;
+    }
+
+    .intro-list {
+        font-size: 20px;
+    }
+
+    .adv-box {
+        font-size: 20px;
+    }
+}
+
+/* планшеты */
+@media (max-width: 991px) {
+    .intro-title {
+        font-size: 88px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .intro-title-sm {
+        font-size: 72px;
+    }
+
+    .intro-sub {
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    .intro-list {
+        font-size: 19px;
+    }
+
+    .adv-box {
+        font-size: 19px;
+    }
+
+    .intro-btn {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 30px;
+    }
+}
+
+/* телефоны */
+@media (max-width: 767px) {
+    .intro-title {
+        font-size: 64px;
+        line-height: 48px;
+    }
+
+    .intro-title-sm {
+        font-size: 54px;
+    }
+
+    .intro-sub {
+        font-size: 30px;
+        line-height: 28px;
+        text-wrap: normal;
+    }
+
+    .intro-list {
+        font-size: 17px;
+    }
+
+    .adv-box {
+        font-size: 17px;
+    }
+
+    .intro-btn {
+        font-size: 16px;
+    }
+}
