@@ -101,13 +101,19 @@
     font-size: 28px;
     line-height: 36px;
     text-align: center;
-    color: white;
+    color: #fff;
     background: #FFD6B6;
     border-radius: 2px;
+    cursor: pointer;
+}
+
+.currency-code-btn:hover {
+    color: #fff;
+    background: #D78C69;
 }
 
 .currency-code-btn.active {
     text-decoration: none;
-    color: white;
+    color: #fff;
     background: #D78C69;
 }

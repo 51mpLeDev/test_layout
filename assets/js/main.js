@@ -10,33 +10,50 @@ $(function () {
         }
     });
 
-    $('.show-paints').on('click', function () {
+    $('.material-btn').on('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
 
-        const btn = $(this);
-        const box = $('.paints-box');
+        const parent = $(this).closest('.material-paints');
 
-        box.slideToggle();
+        $('.material-paints').not(parent).removeClass('active');
+        $('.material-btn').not(this).removeClass('active');
 
-        const btnOffset = btn.offset().left + btn.outerWidth() / 2;
-        const boxOffset = box.offset().left;
-
-        const arrowLeft = btnOffset - boxOffset - 12;
-
-        box.find('.paints-arrow').css('left', arrowLeft + 'px');
+        parent.toggleClass('active');
+        $(this).toggleClass('active');
     });
 
 
-    $('.convert').on('click', function () {
-        const priceEl = $(this).siblings('.price');
+    $(document).on('click', function () {
+        $('.material-paints').removeClass('active');
+        $('.material-btn').removeClass('active');
+    });
 
-        const rub = parseInt(priceEl.data('rub'));
-        const usd = Math.round(rub / 90);
 
-        if (priceEl.text().includes('₽')) {
-            priceEl.text('$ ' + usd);
-        } else {
-            priceEl.text(rub.toLocaleString('ru-RU') + ' ₽');
-        }
+    const USD_RATE = 70;
+
+    $('.currency-code-btn').on('click', function () {
+
+        const btn = $(this);
+        const code = btn.data('code');
+
+        const card = btn.closest('.tariff-card');
+
+        card.find('.currency-code-btn').removeClass('active');
+        btn.addClass('active');
+
+        card.find('.price, .old-price').each(function () {
+
+            const rub = parseInt($(this).data('rub'), 10);
+
+            if (code === 'USD') {
+                const usd = Math.round(rub / USD_RATE);
+                $(this).text(usd + ' $');
+            } else {
+                $(this).text(rub.toLocaleString('ru-RU') + ' ₽');
+            }
+
+        });
     });
 
     $('.faq-question').on('click', function () {

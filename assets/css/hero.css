@@ -26,10 +26,13 @@
     font-size: 48px;
     line-height: 41px;
     color: #4F7290;
+    text-transform: lowercase;
+    text-wrap: nowrap;
 }
 
 .intro-title-sm {
     font-size: 84px;
+    text-wrap: nowrap;
 }
 
 .intro-list {
@@ -53,6 +56,7 @@
 .intro-main-img {
     max-width: 100%;
     padding: 10px;
+    margin-right: -105px;
 }
 
 .intro-brush {
@@ -79,8 +83,10 @@
     letter-spacing: 2.5px;
 }
 
-.intro-advantages {
-    margin-top: -40px;
+@media (min-width: 1200px) {
+    .intro-advantages {
+        margin-top: -40px;
+    }
 }
 
 

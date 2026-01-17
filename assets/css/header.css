@@ -73,6 +73,16 @@
   height: 70px;
 }
 
-body {
-  padding-top: 70px;
+.site-header .navbar {
+  height: 100%;
+}
+
+.nav-item a {
+  color: #000 !important;
+  font-size: 18px;
+  margin: 0 50px;
+}
+
+.nav-item a:hover {
+  color: #f0c7a1 !important;
 }

@@ -19,6 +19,11 @@
     font-weight: 700;
 }
 
+.material-btn.active {
+    position: relative;
+    z-index: 11;
+}
+
 .material-item-paper {
     font-size: 21px;
     margin: 1rem 0;
@@ -38,31 +43,51 @@
     margin: 20px auto 0;
 }
 
-.drop-text {
-    border: 2px solid #a8c4e6;
-    border-radius: 18px;
-    padding: 0;
-    width: 520px;
-    background: #b7d7f3;
+.material-paints {
+    position: relative;
 }
 
-.drop-pad {
-    padding: 22px 26px;
+.paint-dropdown {
+    position: absolute;
+    top: 145px;
+    left: 0;
+    margin-top: 10px;
+    width: 525px;
+    height: 530px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.material-paints.active .paint-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+.paint-box {
+    background: #fff;
+    border: 2px solid #a8c4e6;
+    border-radius: 16px;
+    padding: 90px 20px 20px 20px;
     display: flex;
     gap: 30px;
+    width: 100%;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
 }
 
-.drop-pad ul {
-    padding-left: 18px;
+.paint-col ul {
+    padding-left: 25px;
     margin: 0;
 }
 
-.drop-pad li {
+.paint-col li {
     margin-bottom: 6px;
-    color: #4F7290;
+    font-size: 20px;
+    text-align: start;
 }
 
-.drop-pad li::marker {
+.paint-col li::marker {
     color: #FFA245;
 }
-
