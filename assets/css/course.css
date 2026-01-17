@@ -40,9 +40,7 @@
     line-height: normal;
 }
 
-/* ====== ADAPTIVE FONT SIZES (USEFUL / PROGRAM) ====== */
 
-/* ноутбуки и меньше */
 @media (max-width: 1199px) {
     .section-title {
         font-size: 76px;
@@ -54,7 +52,6 @@
     }
 }
 
-/* планшеты */
 @media (max-width: 991px) {
     .section-title {
         font-size: 68px;
@@ -88,7 +85,6 @@
     }
 }
 
-/* телефоны */
 @media (max-width: 767px) {
     .section-title {
         font-size: 48px;

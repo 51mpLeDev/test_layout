@@ -91,3 +91,11 @@
 .paint-col li::marker {
     color: #FFA245;
 }
+
+
+@media (max-width: 991px) {
+    .material-btn {
+        margin: 30px auto;
+    }
+
+}

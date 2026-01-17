@@ -140,9 +140,6 @@
     color: #4F7290;
 }
 
-/* ====== ADAPTIVE FONT SIZES ====== */
-
-/* ноутбуки и меньше */
 @media (max-width: 1199px) {
     .intro-title {
         font-size: 96px;
@@ -167,7 +164,6 @@
     }
 }
 
-/* планшеты */
 @media (max-width: 991px) {
     .intro-title {
         font-size: 88px;
@@ -200,7 +196,6 @@
     }
 }
 
-/* телефоны */
 @media (max-width: 767px) {
     .intro-title {
         font-size: 64px;
